@@ -47,4 +47,4 @@ jobs:
           script: |
             cd ~/app
             docker compose pull
-            docker compose up -d
+            docker compose up -d --force-recreate
