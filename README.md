@@ -273,17 +273,6 @@ Push to `main` branch triggers:
 
 ##  API Endpoints
 
-**Base URL:** `http://<VM-IP>/api`
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/tutorials` | Get all tutorials |
-| GET | `/tutorials/:id` | Get by ID |
-| POST | `/tutorials` | Create tutorial |
-| PUT | `/tutorials/:id` | Update tutorial |
-| DELETE | `/tutorials/:id` | Delete tutorial |
-| DELETE | `/tutorials` | Delete all |
-| GET | `/tutorials?title=xyz` | Search by title |
 
 **Example:**
 ```bash
